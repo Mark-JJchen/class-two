@@ -1,0 +1,263 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  line-height: 1.5;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h2 {
+  font-size: 64px;
+  width: 636px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 64px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1296px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fd-col {
+  flex-direction: column;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-c {
+  justify-content: center;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-64 {
+  font-size: 64px;
+}
+.fs-128 {
+  font-size: 128px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-28 {
+  margin-top: 28px;
+}
+.mt-36 {
+  margin-top: 36px;
+}
+.mr-16 {
+  margin-right: 16px;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+
+.wrap {
+  background: #000000;
+}
+
+nav ul {
+  justify-content: space-between;
+}
+nav li {
+  color: #d1d1d1;
+  width: 306px;
+  padding-top: 40px;
+}
+nav li:last-child {
+  text-align: right;
+}
+nav li a {
+  color: #d1d1d1;
+}
+
+.banner {
+  padding: 72px 0;
+}
+.banner .intro {
+  flex-direction: column;
+}
+.banner .intro h2,
+.banner .intro a {
+  color: #ffffff;
+}
+.banner .font-green {
+  color: #00ffa3;
+  text-align: right;
+}
+.banner .contact-me {
+  background-color: #fff;
+  text-align: center;
+  margin-left: auto;
+  width: 185px;
+  border-radius: 32px;
+  display: block;
+  padding: 5px 0;
+}
+.banner .contact-me a {
+  color: #000000;
+}
+.banner .contact-me img {
+  margin-left: 5px;
+}
+
+.introduction {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  padding: 160px 0;
+}
+.introduction .section-left {
+  width: 536px;
+  color: #ffffff;
+}
+.introduction .section-right {
+  width: 746px;
+}
+
+.aboutme {
+  background-color: #ffffff;
+  padding: 160px 0;
+}
+.aboutme .aboutme-card {
+  width: 636px;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.aboutme .cards {
+  width: 306px;
+  border: 1px solid #e3e3e3;
+  padding: 16px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.aboutme .aboutme-right {
+  width: 526px;
+}
+
+.contactme {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  color: #ffffff;
+  padding: 96px 0;
+}
+.contactme .move-hover {
+  width: 178px;
+}
+.contactme img:hover {
+  scale: 1.1;
+  transition: 1s;
+}
+.contactme ul {
+  gap: 20px;
+}
+
+.project {
+  background-color: #ffffff;
+  padding: 160px 0;
+}
+.project h3 {
+  width: 746px;
+  margin-left: auto;
+}
+.project .see-more {
+  background-color: #000000;
+  text-align: center;
+  width: 185px;
+  border-radius: 32px;
+  display: block;
+  padding: 12px 24px;
+  font-weight: 400;
+}
+.project .see-more a {
+  color: #ffffff;
+}
+.project .see-more img {
+  margin-left: 5px;
+}
+
+.footer {
+  padding: 40px 0;
+  color: #ffffff;
+  text-align: center;
+}/*# sourceMappingURL=hw2.css.map */

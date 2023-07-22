@@ -1,0 +1,218 @@
+@import "reset";
+
+// variable
+$color_gray: #d1d1d1;
+$color_white: #ffffff;
+$color_black: #000000;
+$color_green: #00ffa3;
+
+// utilities
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: "Bruno Ace SC", cursive;
+    line-height: 1.5;
+}
+ol,
+ul {
+    list-style: none;
+}
+img {
+    vertical-align: middle;
+}
+h2 {
+    font-size: 64px;
+    width: 636px;
+    font-weight: 400;
+}
+h3 {
+    font-size: 64px;
+}
+img {
+    vertical-align: middle;
+}
+.container {
+    margin: 0 auto;
+    width: 1296px;
+}
+// display : flex
+.d-flex {
+    display: flex;
+}
+.fd-col {
+    flex-direction: column;
+}
+.jc {
+    &-sb {
+        justify-content: space-between;
+    }
+    &-c {
+        justify-content: center;
+    }
+}
+.ai-c {
+    align-items: center;
+}
+
+.fs {
+    &-16 {
+        font-size: 16px;
+    }
+    &-24 {
+        font-size: 24px;
+    }
+    &-64 {
+        font-size: 64px;
+    }
+    &-128 {
+        font-size: 128px;
+    }
+}
+
+.m {
+    &t-24 {
+        margin-top: 24px;
+    }
+    &t-28 {
+        margin-top: 28px;
+    }
+    &t-36 {
+        margin-top: 36px;
+    }
+    &r-16 {
+        margin-right: 16px;
+    }
+    &r-24 {
+        margin-right: 24px;
+    }
+}
+
+// coding start
+.wrap {
+    background: $color_black;
+}
+nav {
+    ul {
+        justify-content: space-between;
+    }
+    li {
+        color: $color_gray;
+        width: 306px;
+        padding-top: 40px;
+        &:last-child {
+            text-align: right;
+        }
+        a {
+            color: $color_gray;
+        }
+    }
+}
+.banner {
+    padding: 72px 0;
+    .intro {
+        flex-direction: column;
+        h2,
+        a {
+            color: $color_white;
+        }
+    }
+    .font-green {
+        color: $color_green;
+        text-align: right;
+    }
+    .contact-me {
+        background-color: #fff;
+        text-align: center;
+        margin-left: auto;
+        width: 185px;
+        border-radius: 32px;
+        display: block;
+        padding: 5px 0;
+        a {
+            color: $color_black;
+        }
+        img {
+            margin-left: 5px;
+        }
+    }
+}
+.introduction {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    padding: 160px 0;
+    .section-left {
+        width: 536px;
+        color: $color_white;
+    }
+    .section-right {
+        width: 746px;
+    }
+}
+.aboutme {
+    background-color: $color_white;
+    padding: 160px 0;
+    .aboutme-card {
+        width: 636px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .cards {
+        width: 306px;
+        border: 1px solid #e3e3e3;
+        padding: 16px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+    }
+    .aboutme-right {
+        width: 526px;
+    }
+}
+.contactme {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    color: $color_white;
+    padding: 96px 0;
+    .move-hover {
+        width: 178px;
+        // border-radius: 40px;
+    }
+    img:hover {
+        // box-shadow:
+        //     0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+        //     0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        scale: 1.1;
+        transition: 1s;
+    }
+    ul {
+        gap: 20px;
+    }
+}
+.project {
+    background-color: $color_white;
+    padding: 160px 0;
+    h3 {
+        width: 746px;
+        margin-left: auto;
+    }
+    .see-more {
+        background-color: $color_black;
+        text-align: center;
+        width: 185px;
+        border-radius: 32px;
+        display: block;
+        padding: 12px 24px;
+        font-weight: 400;
+        a {
+            color: $color_white;
+        }
+        img {
+            margin-left: 5px;
+        }
+    }
+}
+.footer {
+    padding: 40px 0;
+    color: $color_white;
+    text-align: center;
+}
